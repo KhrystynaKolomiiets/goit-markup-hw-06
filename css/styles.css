@@ -783,9 +783,8 @@ img {
   }
   .features-list {
     gap: 72px 24px;
-    flex-wrap: wrap;
   }
   .features-list-item {
-    width: calc((100% - 24) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
