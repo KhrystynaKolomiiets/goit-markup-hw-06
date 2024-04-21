@@ -166,6 +166,17 @@ img {
   background-color: #2e2f42;
   margin: 0 auto;
 }
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ratio: 2) {
+  .section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-mob-2x.jpg);
+  }
+}
 .main-header {
   font-weight: 700;
   /* font-size: 56px; */
@@ -846,7 +857,17 @@ img {
       ),
       url(../images/hero-tab.jpg);
   }
-
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab-2x.jpg);
+    }
+  }
   .main-header {
     width: 100%;
     margin-bottom: 36px;
@@ -948,6 +969,17 @@ img {
     padding: 188px 0;
     background-image: (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/hero-desc.jpg);
+  }
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-desc-2x.jpg);
+    }
   }
   .features {
     padding-top: 120px;
